@@ -1,4 +1,4 @@
-rows=int(input("Enter the number of rows:"))
+rows=int(input("Enter the number of rows in odd numbers:"))
 for row in range(1,rows+1):
      if(row%2!=0):
          for column in range(1,row+1):
